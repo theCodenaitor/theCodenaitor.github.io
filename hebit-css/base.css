@@ -1892,7 +1892,17 @@ ul.ui-autocomplete.ui-menu.ui-widget li a:focus {
 }
 
 .hide_torrents::before,
-.show_torrents::before,
+.show_torrents::before {
+  display: inline-block;
+  min-width: 1.1em;
+  font-family: FontAwesome, var(--font);
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  text-align: center;
+  color: var(--text);
+}
+
 .cats_games::before,
 .cats_movies::before,
 .cats_moviespacks::before,
