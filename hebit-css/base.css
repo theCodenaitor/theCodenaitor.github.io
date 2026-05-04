@@ -2296,34 +2296,49 @@ body#torrents .youtube-player {
 
 body#torrents .filter_torrents,
 body#torrents .box.filter_torrents {
-  max-width: 900px;
-  margin-inline: auto;
+  width: 100%;
+  max-width: none;
+  margin-inline: 0;
 }
 
 body#torrents .filter_torrents .box.pad,
 body#torrents .box.filter_torrents .pad,
 body#torrents .box.filter_torrents > form {
-  padding: 8px 10px;
+  overflow-x: auto;
+  padding: 10px 12px;
+  border-color: var(--line);
+  background: rgba(255, 255, 255, 0.035);
 }
 
 body#torrents .filter_torrents table,
 body#torrents .box.filter_torrents table {
   table-layout: auto;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
 }
 
 body#torrents .filter_torrents td,
 body#torrents .filter_torrents th,
 body#torrents .box.filter_torrents td,
 body#torrents .box.filter_torrents th {
-  padding: 5px 7px;
+  padding: 5px 8px;
+  border-bottom-color: rgba(255, 255, 255, 0.055);
+}
+
+body#torrents .filter_torrents tr:nth-child(even):not(.colhead):not(.colhead_dark) td,
+body#torrents .box.filter_torrents tr:nth-child(even):not(.colhead):not(.colhead_dark) td,
+body#torrents .filter_torrents tr:hover td,
+body#torrents .box.filter_torrents tr:hover td {
+  background: transparent;
 }
 
 body#torrents .filter_torrents td.label,
 body#torrents .filter_torrents td.label-to-left,
 body#torrents .box.filter_torrents td.label,
 body#torrents .box.filter_torrents td.label-to-left {
-  width: 112px;
-  max-width: 112px;
+  width: 118px;
+  max-width: 118px;
   white-space: nowrap;
 }
 
@@ -2331,30 +2346,35 @@ body#torrents .filter_torrents input[type="text"],
 body#torrents .filter_torrents input[type="search"],
 body#torrents .box.filter_torrents input[type="text"],
 body#torrents .box.filter_torrents input[type="search"] {
-  min-height: 32px;
-  max-width: 440px;
+  min-height: 30px;
+  max-width: 520px;
+  padding-block: 5px;
 }
 
 body#torrents .filter_torrents select,
 body#torrents .box.filter_torrents select {
-  min-height: 32px;
+  min-height: 30px;
   max-width: 280px;
+  padding-block: 5px;
 }
 
 body#torrents .filter_torrents input[type="checkbox"],
 body#torrents .filter_torrents input[type="radio"],
 body#torrents .box.filter_torrents input[type="checkbox"],
 body#torrents .box.filter_torrents input[type="radio"] {
-  width: 18px !important;
-  min-width: 18px !important;
-  height: 18px !important;
-  min-height: 18px !important;
+  width: 14px !important;
+  min-width: 14px !important;
+  height: 14px !important;
+  min-height: 14px !important;
+  margin-inline: 3px;
 }
 
 body#torrents .filter_torrents .cat_list,
 body#torrents .filter_torrents .ft_cat_list,
 body#torrents .box.filter_torrents .cat_list,
 body#torrents .box.filter_torrents .ft_cat_list {
+  width: 100%;
+  table-layout: fixed;
   text-align: center;
 }
 
@@ -2362,7 +2382,24 @@ body#torrents .filter_torrents .cat_list td,
 body#torrents .filter_torrents .ft_cat_list td,
 body#torrents .box.filter_torrents .cat_list td,
 body#torrents .box.filter_torrents .ft_cat_list td {
-  padding: 4px 6px;
+  padding: 5px 4px;
+  border-bottom: 0;
+  color: var(--text-soft);
+  font-size: 0.78rem;
+  line-height: 1.35;
+  vertical-align: top;
+}
+
+body#torrents .filter_torrents .cat_list [class^="cats_"]::before,
+body#torrents .filter_torrents .cat_list [class*=" cats_"]::before,
+body#torrents .filter_torrents .ft_cat_list [class^="cats_"]::before,
+body#torrents .filter_torrents .ft_cat_list [class*=" cats_"]::before,
+body#torrents .box.filter_torrents .cat_list [class^="cats_"]::before,
+body#torrents .box.filter_torrents .cat_list [class*=" cats_"]::before,
+body#torrents .box.filter_torrents .ft_cat_list [class^="cats_"]::before,
+body#torrents .box.filter_torrents .ft_cat_list [class*=" cats_"]::before {
+  margin-bottom: 2px;
+  font-size: 0.95rem;
 }
 
 body#torrents .filter_torrents .tags,
@@ -2370,7 +2407,35 @@ body#torrents .box.filter_torrents .tags,
 body#torrents .filter_torrents #taglist,
 body#torrents .box.filter_torrents #taglist {
   justify-content: center;
-  gap: 4px;
+  gap: 3px;
+}
+
+body#torrents .filter_torrents #taglist td,
+body#torrents .box.filter_torrents #taglist td {
+  padding: 2px 4px;
+  border-bottom: 0;
+  text-align: center;
+}
+
+body#torrents .filter_torrents #taglist tr td a,
+body#torrents .box.filter_torrents #taglist tr td a,
+body#torrents .filter_torrents .tags a,
+body#torrents .box.filter_torrents .tags a {
+  min-height: 20px;
+  padding: 2px 7px;
+  border-color: rgb(var(--accent-2-rgb) / 0.13);
+  background: rgb(var(--accent-2-rgb) / 0.075);
+  font-size: 0.7rem;
+}
+
+body#torrents .filter_torrents input[type="submit"],
+body#torrents .filter_torrents input[type="button"],
+body#torrents .box.filter_torrents input[type="submit"],
+body#torrents .box.filter_torrents input[type="button"] {
+  width: auto !important;
+  min-height: 30px;
+  padding: 5px 11px !important;
+  box-shadow: none;
 }
 
 body#torrents .filelist_table,
@@ -2658,6 +2723,15 @@ img.reaction {
   body#series #content > .thin,
   body#user #content > .thin {
     display: block;
+  }
+
+  body#torrents .filter_torrents .cat_list,
+  body#torrents .filter_torrents .ft_cat_list,
+  body#torrents .filter_torrents #taglist,
+  body#torrents .box.filter_torrents .cat_list,
+  body#torrents .box.filter_torrents .ft_cat_list,
+  body#torrents .box.filter_torrents #taglist {
+    min-width: 720px;
   }
 
   body#torrents #content > .thin > .sidebar,
