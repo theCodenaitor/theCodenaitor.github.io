@@ -2447,10 +2447,35 @@ body#torrents .thin.widethin form.search_form #taglist {
   gap: 3px;
 }
 
+body#torrents .filter_torrents #taglist,
+body#torrents .box.filter_torrents #taglist,
+body#torrents .thin.widethin form.search_form #taglist {
+  display: block;
+  min-width: 0;
+  table-layout: auto;
+}
+
+body#torrents .filter_torrents #taglist tbody,
+body#torrents .box.filter_torrents #taglist tbody,
+body#torrents .thin.widethin form.search_form #taglist tbody {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+body#torrents .filter_torrents #taglist tr,
+body#torrents .box.filter_torrents #taglist tr,
+body#torrents .thin.widethin form.search_form #taglist tr {
+  display: contents;
+}
+
 body#torrents .filter_torrents #taglist td,
 body#torrents .box.filter_torrents #taglist td,
 body#torrents .thin.widethin form.search_form #taglist td {
-  padding: 2px 4px;
+  display: inline-flex;
+  padding: 0;
   border-bottom: 0;
   text-align: center;
 }
@@ -2769,13 +2794,10 @@ img.reaction {
 
   body#torrents .filter_torrents .cat_list,
   body#torrents .filter_torrents .ft_cat_list,
-  body#torrents .filter_torrents #taglist,
   body#torrents .box.filter_torrents .cat_list,
   body#torrents .box.filter_torrents .ft_cat_list,
-  body#torrents .box.filter_torrents #taglist,
   body#torrents .thin.widethin form.search_form .cat_list,
-  body#torrents .thin.widethin form.search_form .ft_cat_list,
-  body#torrents .thin.widethin form.search_form #taglist {
+  body#torrents .thin.widethin form.search_form .ft_cat_list {
     min-width: 720px;
   }
 
