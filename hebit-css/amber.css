@@ -1,0 +1,83 @@
+@import url("./base.css");
+
+:root {
+  --bg: #11100b;
+  --bg-soft: #18160f;
+  --surface: #222017;
+  --surface-2: #2e2a1d;
+  --surface-3: #3d3725;
+  --line: rgba(251, 191, 36, 0.15);
+  --line-strong: rgba(251, 191, 36, 0.24);
+  --text: #fff8e7;
+  --text-muted: #cfc19d;
+  --text-soft: #eadbb8;
+  --accent: #fbbf24;
+  --accent-2: #38bdf8;
+  --accent-3: #fb7185;
+  --danger: #f87171;
+  --success: #84cc16;
+  --warning: #f97316;
+  --accent-rgb: 251 191 36;
+  --accent-2-rgb: 56 189 248;
+  --accent-3-rgb: 251 113 133;
+  --success-rgb: 132 204 22;
+  --warning-rgb: 249 115 22;
+  --danger-rgb: 248 113 113;
+  --page-bg-top: #1f1b10;
+  --page-bg-bottom: #060503;
+  --deep-bg: #121006;
+  --accent-hover: #fde68a;
+  --accent-button-end: #fbbf24;
+  --button-text: #171000;
+  --button-text-hover: #171000;
+  --placeholder-text: #b9aa83;
+  --quiet-text: #9e8f6e;
+  --quiet-text-2: #aa9975;
+  --accent-2-chip-text: #d9f3ff;
+  --accent-3-chip-text: #ffe4e6;
+  --success-chip-text: #d9f99d;
+  --shadow: 0 18px 50px rgba(12, 9, 0, 0.44);
+  --shadow-soft: 0 10px 26px rgba(12, 9, 0, 0.31);
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline-color: rgba(251, 191, 36, 0.78);
+}
+
+input:hover,
+select:hover,
+textarea:hover,
+form.search_form input:hover {
+  border-color: rgba(251, 191, 36, 0.4);
+  background: rgba(251, 191, 36, 0.09);
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+form.search_form input:focus {
+  border-color: rgba(251, 191, 36, 0.76);
+  background: rgba(251, 191, 36, 0.12);
+  box-shadow: 0 0 0 4px rgba(251, 191, 36, 0.13);
+}
+
+input[type="submit"],
+input[type="button"],
+.btn,
+.disabled-btn {
+  border-color: rgba(251, 191, 36, 0.44);
+  background: linear-gradient(180deg, #fcd34d, #fbbf24) !important;
+  color: #171000 !important;
+  box-shadow: 0 8px 18px rgba(251, 191, 36, 0.18);
+}
+
+input[type="submit"]:hover,
+input[type="button"]:hover,
+.btn:hover {
+  background: linear-gradient(180deg, #fde68a, #f59e0b) !important;
+  color: #171000 !important;
+}

@@ -1,0 +1,83 @@
+@import url("./base.css");
+
+:root {
+  --bg: #0f1113;
+  --bg-soft: #151719;
+  --surface: #1b1f22;
+  --surface-2: #23282c;
+  --surface-3: #2c3338;
+  --line: rgba(255, 255, 255, 0.1);
+  --line-strong: rgba(255, 255, 255, 0.16);
+  --text: #eef3f8;
+  --text-muted: #aab6c5;
+  --text-soft: #d4dde8;
+  --accent: #45d19a;
+  --accent-2: #6ec6ff;
+  --accent-3: #ffc857;
+  --danger: #ff6b81;
+  --success: #62d26f;
+  --warning: #f6b44b;
+  --accent-rgb: 69 209 154;
+  --accent-2-rgb: 110 198 255;
+  --accent-3-rgb: 255 200 87;
+  --success-rgb: 98 210 111;
+  --warning-rgb: 246 180 75;
+  --danger-rgb: 255 107 129;
+  --page-bg-top: #151718;
+  --page-bg-bottom: #090a0b;
+  --deep-bg: #0b0d11;
+  --accent-hover: #79e4b8;
+  --accent-button-end: rgb(var(--accent-rgb) / 0.95);
+  --button-text: #07110d;
+  --button-text-hover: #06100c;
+  --placeholder-text: #8d9aaa;
+  --quiet-text: #798698;
+  --quiet-text-2: #7d8897;
+  --accent-2-chip-text: #cdeaff;
+  --accent-3-chip-text: #ffe2a1;
+  --success-chip-text: #8ff0a0;
+  --shadow: 0 18px 50px rgba(0, 0, 0, 0.34);
+  --shadow-soft: 0 10px 26px rgba(0, 0, 0, 0.24);
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline-color: rgba(110, 198, 255, 0.75);
+}
+
+input:hover,
+select:hover,
+textarea:hover,
+form.search_form input:hover {
+  border-color: rgba(110, 198, 255, 0.36);
+  background: rgba(255, 255, 255, 0.095);
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+form.search_form input:focus {
+  border-color: rgba(110, 198, 255, 0.72);
+  background: rgba(255, 255, 255, 0.11);
+  box-shadow: 0 0 0 4px rgba(110, 198, 255, 0.12);
+}
+
+input[type="submit"],
+input[type="button"],
+.btn,
+.disabled-btn {
+  border-color: rgba(69, 209, 154, 0.35);
+  background: linear-gradient(180deg, rgba(69, 209, 154, 0.95), rgba(43, 169, 122, 0.95)) !important;
+  color: #07110d !important;
+  box-shadow: 0 8px 18px rgba(69, 209, 154, 0.18);
+}
+
+input[type="submit"]:hover,
+input[type="button"]:hover,
+.btn:hover {
+  background: linear-gradient(180deg, #79e4b8, #45d19a) !important;
+  color: #06100c !important;
+}

@@ -1,0 +1,160 @@
+@import url("./base.css");
+
+:root {
+  --bg: #111;
+  --bg-soft: #171717;
+  --surface: #1f1f1f;
+  --surface-2: #252525;
+  --surface-3: #333;
+  --line: rgba(255, 255, 255, 0.12);
+  --line-strong: rgba(255, 255, 255, 0.22);
+  --text: #f7f7f7;
+  --text-muted: #ababab;
+  --text-soft: #d0d0d0;
+  --accent: #32867d;
+  --accent-2: #5aada5;
+  --accent-3: #d2aa4b;
+  --danger: #bd0d0d;
+  --success: #3c9454;
+  --warning: #ff7c00;
+  --accent-rgb: 50 134 125;
+  --accent-2-rgb: 90 173 165;
+  --accent-3-rgb: 210 170 75;
+  --success-rgb: 60 148 84;
+  --warning-rgb: 255 124 0;
+  --danger-rgb: 189 13 13;
+  --page-bg-top: #1a1a1a;
+  --page-bg-bottom: #0b0b0b;
+  --deep-bg: #131313;
+  --accent-hover: #70b3ab;
+  --accent-button-end: #6cb3ae;
+  --button-text: #fff;
+  --button-text-hover: #fff;
+  --placeholder-text: #848484;
+  --quiet-text: #9a9a9a;
+  --quiet-text-2: #ababab;
+  --accent-2-chip-text: #f7f7f7;
+  --accent-3-chip-text: #313131;
+  --success-chip-text: #f7f7f7;
+  --shadow: 0 18px 50px rgba(0, 0, 0, 0.36);
+  --shadow-soft: 0 3px 4px rgba(0, 0, 0, 0.18);
+}
+
+#header,
+#menu,
+#searchbars-wrapper,
+#footer {
+  background: #0b0b0b;
+  border-color: #1a1a1a;
+  box-shadow: none;
+}
+
+#banner::before {
+  background:
+    linear-gradient(180deg, rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.62)),
+    linear-gradient(90deg, rgba(50, 134, 125, 0.11), rgba(90, 173, 165, 0.08));
+}
+
+#banner::after {
+  background: linear-gradient(180deg, transparent, rgba(11, 11, 11, 0.9));
+}
+
+#userinfo {
+  background: rgba(0, 0, 0, 0.5);
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+.box,
+.panel__body,
+.panel__heading,
+.forum_post,
+.permission_subcontainer,
+.movie-item,
+div.ui-tabs-vertical,
+.tablebox table,
+.torrent_table,
+.forum_index,
+.forum_list,
+.message_table,
+table.layout,
+#latest_torrents .box,
+#latest_torrents.box,
+.sidebar .box,
+.group td,
+#inbox .box,
+#inbox .box #buttons .field_div.textarea_wrap,
+#inbox .box .body,
+#summary .ui-widget-content,
+#summary .ui-widget-header,
+body#torrents .filelist_table,
+body#torrents .mediainfo,
+body#torrents table.nobr {
+  background: #242424;
+  border-color: #333;
+}
+
+.head,
+.box .head,
+.panel__heading,
+.forum-post__heading,
+.toggleable-search-form__toggler-container,
+tr.colhead td,
+tr.colhead_dark td,
+.colhead td,
+.colhead_dark td,
+#more_news .head,
+body#forums .forum_category_title {
+  background: #333;
+  border-color: #1a1a1a;
+}
+
+input,
+select,
+textarea,
+button {
+  background: #1f1f1f;
+  color: #f7f7f7;
+  border-color: #444;
+}
+
+#searchbars input,
+form.search_form input {
+  background: rgba(0, 0, 0, 0.15);
+  color: #ababab;
+  border-color: #3b3b3b;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+input:hover,
+select:hover,
+textarea:hover,
+form.search_form input:hover {
+  border-color: rgba(90, 173, 165, 0.38);
+  background: rgba(0, 0, 0, 0.18);
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+form.search_form input:focus {
+  border-color: rgba(90, 173, 165, 0.72);
+  background: rgba(0, 0, 0, 0.24);
+  box-shadow: 0 0 0 4px rgba(90, 173, 165, 0.14);
+}
+
+input[type="submit"],
+input[type="button"],
+.btn,
+.disabled-btn {
+  border-color: rgba(108, 179, 174, 0.44);
+  background: #6cb3ae !important;
+  color: #fff !important;
+  box-shadow: 0 8px 18px rgba(50, 134, 125, 0.18);
+}
+
+input[type="submit"]:hover,
+input[type="button"]:hover,
+.btn:hover {
+  background: #b5b5b5 !important;
+  color: #fff !important;
+}

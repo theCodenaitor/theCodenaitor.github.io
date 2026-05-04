@@ -1,0 +1,83 @@
+@import url("./base.css");
+
+:root {
+  --bg: #0e0b1a;
+  --bg-soft: #151126;
+  --surface: #1d1734;
+  --surface-2: #292047;
+  --surface-3: #362a5c;
+  --line: rgba(167, 139, 250, 0.15);
+  --line-strong: rgba(167, 139, 250, 0.25);
+  --text: #f4f1ff;
+  --text-muted: #b8add8;
+  --text-soft: #d8cff5;
+  --accent: #a78bfa;
+  --accent-2: #22d3ee;
+  --accent-3: #f472b6;
+  --danger: #fb7185;
+  --success: #34d399;
+  --warning: #f59e0b;
+  --accent-rgb: 167 139 250;
+  --accent-2-rgb: 34 211 238;
+  --accent-3-rgb: 244 114 182;
+  --success-rgb: 52 211 153;
+  --warning-rgb: 245 158 11;
+  --danger-rgb: 251 113 133;
+  --page-bg-top: #19122d;
+  --page-bg-bottom: #05030b;
+  --deep-bg: #0d071c;
+  --accent-hover: #ddd6fe;
+  --accent-button-end: #a78bfa;
+  --button-text: #11091f;
+  --button-text-hover: #10091d;
+  --placeholder-text: #a99cc8;
+  --quiet-text: #9284b3;
+  --quiet-text-2: #9c8dbd;
+  --accent-2-chip-text: #cffafe;
+  --accent-3-chip-text: #fce7f3;
+  --success-chip-text: #bbf7d0;
+  --shadow: 0 18px 50px rgba(7, 3, 20, 0.48);
+  --shadow-soft: 0 10px 26px rgba(7, 3, 20, 0.34);
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline-color: rgba(167, 139, 250, 0.78);
+}
+
+input:hover,
+select:hover,
+textarea:hover,
+form.search_form input:hover {
+  border-color: rgba(167, 139, 250, 0.4);
+  background: rgba(167, 139, 250, 0.1);
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+form.search_form input:focus {
+  border-color: rgba(167, 139, 250, 0.78);
+  background: rgba(167, 139, 250, 0.13);
+  box-shadow: 0 0 0 4px rgba(167, 139, 250, 0.13);
+}
+
+input[type="submit"],
+input[type="button"],
+.btn,
+.disabled-btn {
+  border-color: rgba(167, 139, 250, 0.44);
+  background: linear-gradient(180deg, #c4b5fd, #a78bfa) !important;
+  color: #11091f !important;
+  box-shadow: 0 8px 18px rgba(167, 139, 250, 0.2);
+}
+
+input[type="submit"]:hover,
+input[type="button"]:hover,
+.btn:hover {
+  background: linear-gradient(180deg, #ddd6fe, #22d3ee) !important;
+  color: #10091d !important;
+}
