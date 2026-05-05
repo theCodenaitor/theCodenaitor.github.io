@@ -51,23 +51,91 @@ https://thecodenaitor.github.io/hebit-css/evergreen.css?v=3
 
 ---
 
-## 📚 Available Themes
+## 🎨 Available Themes
 
-| Theme Name | URL |
-|---|---|
-| Hebit CSS - Evergreen | `https://thecodenaitor.github.io/hebit-css/evergreen.css` |
-| *Add more themes here* | *Your URL* |
+### 🌲 Evergreen
+**Description:** Nature-inspired theme with calm, soothing green tones and earth colors. Perfect for a natural, peaceful aesthetic.  
+**URL:** `https://thecodenaitor.github.io/hebit-css/evergreen.css`  
+**Best for:** Nature lovers, calm interfaces, organic designs
 
 ---
 
-## 🎯 Quick Reference
+### 🌊 Ocean
+**Description:** Cool, refreshing blues and aqua tones inspired by the sea. Creates a calm, fluid, and professional atmosphere.  
+**URL:** `https://thecodenaitor.github.io/hebit-css/ocean.css`  
+**Best for:** Tech projects, professional sites, tranquil designs
+
+---
+
+### 🌹 Rose
+**Description:** Elegant pinks, reds, and warm tones. Romantic, modern, and sophisticated with a touch of luxury.  
+**URL:** `https://thecodenaitor.github.io/hebit-css/rose.css`  
+**Best for:** Creative portfolios, fashion, beauty, elegant UIs
+
+---
+
+### 💜 Violet
+**Description:** Rich purple and lavender hues. Mysterious, creative, and artistic with a modern edge.  
+**URL:** `https://thecodenaitor.github.io/hebit-css/violet.css`  
+**Best for:** Creative projects, artistic portfolios, premium brands
+
+---
+
+### 🟠 Amber
+**Description:** Warm golden and amber tones with earthy vibes. Energetic, welcoming, and vintage-inspired.  
+**URL:** `https://thecodenaitor.github.io/hebit-css/amber.css`  
+**Best for:** Warm, inviting interfaces, retro styles, adventure themes
+
+---
+
+### 🎯 OG Colors (Original Colors)
+**Description:** The original color palette with a full spectrum of vibrant, bold colors. Classic and feature-rich.  
+**URL:** `https://thecodenaitor.github.io/hebit-css/og-colors.css`  
+**Best for:** Full color customization, diverse designs, maximum options
+
+---
+
+### 📦 Base
+**Description:** The foundation CSS framework. This is the core styling system that all themes build upon.  
+**URL:** `https://thecodenaitor.github.io/hebit-css/base.css`  
+**Best for:** Custom theme development, advanced users
+
+---
+
+## 📚 Quick Reference Table
+
+| 🎨 Theme | 📍 URL | 🌟 Vibe |
+|---|---|---|
+| 🌲 Evergreen | `https://thecodenaitor.github.io/hebit-css/evergreen.css` | Natural, Calm |
+| 🌊 Ocean | `https://thecodenaitor.github.io/hebit-css/ocean.css` | Cool, Professional |
+| 🌹 Rose | `https://thecodenaitor.github.io/hebit-css/rose.css` | Elegant, Romantic |
+| 💜 Violet | `https://thecodenaitor.github.io/hebit-css/violet.css` | Creative, Artistic |
+| 🟠 Amber | `https://thecodenaitor.github.io/hebit-css/amber.css` | Warm, Welcoming |
+| 🎯 OG Colors | `https://thecodenaitor.github.io/hebit-css/og-colors.css` | Vibrant, Bold |
+| 📦 Base | `https://thecodenaitor.github.io/hebit-css/base.css` | Foundation |
+
+---
+
+## 🎯 Quick Actions
 
 | Action | What to Do |
 |---|---|
-| **Apply a theme** | Paste the CSS URL in the Evergreen Site URL box |
+| **Apply a theme** | Copy a URL from the table above and paste it in the Evergreen Site URL box |
+| **Switch themes** | Replace the URL with a different theme URL |
 | **Update a theme** | Add `?v=X` to the URL (increment X each time) |
 | **Clear cache** | Change the version parameter to a new number |
 | **See changes** | Press Enter/Submit after pasting the URL |
+
+---
+
+## 💡 Example Usage
+
+```
+1. Start with: https://thecodenaitor.github.io/hebit-css/ocean.css
+2. Not happy? Try: https://thecodenaitor.github.io/hebit-css/rose.css
+3. Made changes? Add: https://thecodenaitor.github.io/hebit-css/rose.css?v=1
+4. Still cached? Update: https://thecodenaitor.github.io/hebit-css/rose.css?v=2
+```
 
 ---
 
@@ -82,14 +150,24 @@ https://thecodenaitor.github.io/hebit-css/evergreen.css?v=3
 ✔️ Increment the version number: `?v=1` → `?v=2`  
 ✔️ Wait a moment for the browser to fetch the new file
 
+### Not sure which theme to pick?
+✔️ Try **Ocean** for a professional look  
+✔️ Try **Rose** for elegance  
+✔️ Try **Evergreen** for a natural feel  
+✔️ Try **Violet** for creativity
+
 ---
 
-## 🌈 Creative Theme Ideas
+## 🌈 Theme Selection Guide
 
-- **Evergreen**: Nature-inspired, calm greens and earth tones
-- **Dark Mode**: Elegant dark themes for night browsing
-- **Vibrant**: Bold, colorful, energetic designs
-- **Minimal**: Clean, simple, distraction-free layouts
+| Mood | Theme |
+|---|---|
+| I want nature vibes 🌍 | Evergreen |
+| I want calm & professional 💼 | Ocean |
+| I want elegance & style ✨ | Rose |
+| I want creativity & art 🎭 | Violet |
+| I want warm & cozy 🔥 | Amber |
+| I want ALL the colors 🌈 | OG Colors |
 
 ---
 
