@@ -1,31 +1,31 @@
-# 🎨 theCodenaitor.github.io
+# 🎨 Hebit - Torrent Tracker Theme Customizer
 
 ## Welcome! 👋
 
-This repository hosts a dynamic theme customization platform where you can apply beautiful CSS themes to personalize your experience!
+This repository hosts beautiful **CSS themes** for the **Hebit torrent tracker**. Customize your Hebit experience with stunning color schemes and elegant designs!
 
 ---
 
-## 🚀 How to Use Evergreen Theme URLs
+## 🚀 How to Apply a Theme to Hebit
 
-### Step 1: Find Your Theme CSS URL 🔗
+### Step 1: Find Your Favorite Theme 🎨
 
-First, identify the CSS file URL of the theme you want to use. For example:
+Browse through our collection of themes below and choose the one that matches your style.
+
+### Step 2: Copy the Theme URL 🔗
+
+Each theme has a dedicated URL. For example:
 ```
 https://thecodenaitor.github.io/hebit-css/evergreen.css
 ```
 
-### Step 2: Add the URL to Evergreen 📝
+### Step 3: Add the URL to Hebit 📝
 
-1. Visit the site (or the Evergreen customization box)
-2. Locate the **"Site URL of Evergreen"** input box
-3. Paste your CSS theme URL into the box
-4. Apply the theme and enjoy! ✨
-
-### Example Theme URL:
-```
-https://thecodenaitor.github.io/hebit-css/evergreen.css
-```
+1. Go to your **Hebit tracker settings**
+2. Find the **"Site URL"** or **"CSS URL"** input field
+3. Paste your chosen theme URL into the box
+4. Apply/Save the changes
+5. Refresh the page and enjoy! ✨
 
 ---
 
@@ -51,58 +51,58 @@ https://thecodenaitor.github.io/hebit-css/evergreen.css?v=3
 
 ---
 
-## 🎨 Available Themes
+## 🎨 Available Hebit Themes
 
 ### 🌲 Evergreen
-**Description:** Nature-inspired theme with calm, soothing green tones and earth colors. Perfect for a natural, peaceful aesthetic.  
+**Description:** Nature-inspired theme with calm, soothing green tones and earth colors. Perfect for a natural, peaceful aesthetic that reduces eye strain.  
 **URL:** `https://thecodenaitor.github.io/hebit-css/evergreen.css`  
-**Best for:** Nature lovers, calm interfaces, organic designs
+**Best for:** Long browsing sessions, nature lovers, organic feels
 
 ---
 
 ### 🌊 Ocean
-**Description:** Cool, refreshing blues and aqua tones inspired by the sea. Creates a calm, fluid, and professional atmosphere.  
+**Description:** Cool, refreshing blues and aqua tones inspired by the sea. Creates a calm, fluid, and professional atmosphere perfect for serious trackers.  
 **URL:** `https://thecodenaitor.github.io/hebit-css/ocean.css`  
-**Best for:** Tech projects, professional sites, tranquil designs
+**Best for:** Professional use, tech enthusiasts, tranquil browsing
 
 ---
 
 ### 🌹 Rose
-**Description:** Elegant pinks, reds, and warm tones. Romantic, modern, and sophisticated with a touch of luxury.  
+**Description:** Elegant pinks, reds, and warm tones. Romantic, modern, and sophisticated with a touch of luxury and refinement.  
 **URL:** `https://thecodenaitor.github.io/hebit-css/rose.css`  
-**Best for:** Creative portfolios, fashion, beauty, elegant UIs
+**Best for:** Aesthetic appreciation, style-conscious users, elegant interfaces
 
 ---
 
 ### 💜 Violet
-**Description:** Rich purple and lavender hues. Mysterious, creative, and artistic with a modern edge.  
+**Description:** Rich purple and lavender hues. Mysterious, creative, and artistic with a modern edge and distinguished appearance.  
 **URL:** `https://thecodenaitor.github.io/hebit-css/violet.css`  
-**Best for:** Creative projects, artistic portfolios, premium brands
+**Best for:** Creative users, artistic preferences, premium feel
 
 ---
 
 ### 🟠 Amber
-**Description:** Warm golden and amber tones with earthy vibes. Energetic, welcoming, and vintage-inspired.  
+**Description:** Warm golden and amber tones with earthy vibes. Energetic, welcoming, and vintage-inspired with a retro charm.  
 **URL:** `https://thecodenaitor.github.io/hebit-css/amber.css`  
-**Best for:** Warm, inviting interfaces, retro styles, adventure themes
+**Best for:** Warm, inviting aesthetics, retro enthusiasts, adventure vibes
 
 ---
 
 ### 🎯 OG Colors (Original Colors)
-**Description:** The original color palette with a full spectrum of vibrant, bold colors. Classic and feature-rich.  
+**Description:** The original Hebit color palette with a full spectrum of vibrant, bold colors. Feature-rich and versatile.  
 **URL:** `https://thecodenaitor.github.io/hebit-css/og-colors.css`  
-**Best for:** Full color customization, diverse designs, maximum options
+**Best for:** Full color customization, diverse designs, maximum visual options
 
 ---
 
 ### 📦 Base
-**Description:** The foundation CSS framework. This is the core styling system that all themes build upon.  
+**Description:** The foundation CSS framework. This is the core styling system that all Hebit themes build upon.  
 **URL:** `https://thecodenaitor.github.io/hebit-css/base.css`  
 **Best for:** Custom theme development, advanced users
 
 ---
 
-## 📚 Quick Reference Table
+## 📚 Quick Theme Reference
 
 | 🎨 Theme | 📍 URL | 🌟 Vibe |
 |---|---|---|
@@ -116,65 +116,93 @@ https://thecodenaitor.github.io/hebit-css/evergreen.css?v=3
 
 ---
 
-## 🎯 Quick Actions
+## 🎯 Quick Setup Guide
 
-| Action | What to Do |
+| Step | Action |
 |---|---|
-| **Apply a theme** | Copy a URL from the table above and paste it in the Evergreen Site URL box |
-| **Switch themes** | Replace the URL with a different theme URL |
-| **Update a theme** | Add `?v=X` to the URL (increment X each time) |
-| **Clear cache** | Change the version parameter to a new number |
-| **See changes** | Press Enter/Submit after pasting the URL |
+| 1️⃣ **Pick a Theme** | Choose from the themes above |
+| 2️⃣ **Copy URL** | Click or copy the URL from the table |
+| 3️⃣ **Paste in Hebit** | Paste into Hebit's CSS/Site URL field |
+| 4️⃣ **Save Changes** | Click Save/Apply in Hebit settings |
+| 5️⃣ **Refresh Page** | Refresh your browser to see the theme |
 
 ---
 
-## 💡 Example Usage
+## 💡 Step-by-Step Example
 
 ```
-1. Start with: https://thecodenaitor.github.io/hebit-css/ocean.css
-2. Not happy? Try: https://thecodenaitor.github.io/hebit-css/rose.css
-3. Made changes? Add: https://thecodenaitor.github.io/hebit-css/rose.css?v=1
-4. Still cached? Update: https://thecodenaitor.github.io/hebit-css/rose.css?v=2
+1. You want to try Ocean theme
+2. Copy: https://thecodenaitor.github.io/hebit-css/ocean.css
+3. Paste in Hebit settings → CSS URL field
+4. Click Save/Apply
+5. Hard refresh: Ctrl+Shift+R (or Cmd+Shift+R on Mac)
+6. Your Hebit tracker now has the Ocean theme! 🌊
+
+Made changes to the theme file?
+7. Add version: https://thecodenaitor.github.io/hebit-css/ocean.css?v=1
+8. Refresh to see the updates
 ```
+
+---
+
+## 🌈 Choose Your Perfect Hebit Theme
+
+| Your Style | Recommended Theme |
+|---|---|
+| I love nature 🌍 | Evergreen |
+| I want professional & calm 💼 | Ocean |
+| I appreciate elegance ✨ | Rose |
+| I'm creative & artistic 🎭 | Violet |
+| I like warm & cozy vibes 🔥 | Amber |
+| I want maximum color options 🌈 | OG Colors |
 
 ---
 
 ## ❓ Troubleshooting
 
-### Theme not appearing?
-✔️ Check the URL is correct  
-✔️ Add `?v=1` to bypass cache  
-✔️ Hard refresh your browser (Ctrl+Shift+R or Cmd+Shift+R)
+### Theme not showing up in Hebit?
+✔️ Double-check the URL is correct  
+✔️ Add `?v=1` to the end of the URL  
+✔️ Hard refresh your browser (Ctrl+Shift+R)  
+✔️ Clear your browser cache completely
 
-### Changes not showing?
+### Changes not visible after updating?
 ✔️ Increment the version number: `?v=1` → `?v=2`  
-✔️ Wait a moment for the browser to fetch the new file
+✔️ Wait a few seconds for the browser to fetch the new file  
+✔️ Try a different browser to rule out caching issues
 
-### Not sure which theme to pick?
-✔️ Try **Ocean** for a professional look  
-✔️ Try **Rose** for elegance  
-✔️ Try **Evergreen** for a natural feel  
-✔️ Try **Violet** for creativity
+### URL not working?
+✔️ Make sure it's the full URL including `https://`  
+✔️ Check for typos in the URL  
+✔️ Try copying directly from the table above
 
----
-
-## 🌈 Theme Selection Guide
-
-| Mood | Theme |
-|---|---|
-| I want nature vibes 🌍 | Evergreen |
-| I want calm & professional 💼 | Ocean |
-| I want elegance & style ✨ | Rose |
-| I want creativity & art 🎭 | Violet |
-| I want warm & cozy 🔥 | Amber |
-| I want ALL the colors 🌈 | OG Colors |
+### Still having issues?
+✔️ Try the **Ocean** theme as a test  
+✔️ Check your Hebit tracker documentation  
+✔️ Create an issue in this repository
 
 ---
 
-## 📧 Questions or Issues?
+## 🎨 Theme Preview Tips
 
-Have a theme to suggest? Found a bug? Feel free to create an issue or contact the developer!
+- **New to Hebit?** Start with **Ocean** - it's professional and clean
+- **Want to experiment?** Try **Rose** or **Violet** for something different
+- **Prefer minimalist?** **Evergreen** is calming and focused
+- **Like vibrant colors?** **OG Colors** has the most variety
 
 ---
 
-**Made with 💖 by theCodenaitor** | Last Updated: 2026-05-05
+## 📧 Feedback & Support
+
+Have a theme suggestion for Hebit? Found an issue with a theme? Want to contribute?  
+Feel free to create an issue or reach out to the developer!
+
+---
+
+## 📝 About Hebit
+
+Hebit is a feature-rich torrent tracker with a customizable interface. These themes help you personalize your Hebit experience to match your preferences and workflow.
+
+---
+
+**Made with 💖 by theCodenaitor** | For Hebit Torrent Tracker | Last Updated: 2026-05-05
